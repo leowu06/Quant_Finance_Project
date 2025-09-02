@@ -1,18 +1,7 @@
 # Quant_Finance_Projects
 
-This repository contains my projects in quantitative finance, organized into categories:  
+This repository contains my projects in quantitative finance, specifically for pricing models.
 
-- 📊 **Backtesting Strategies**  
-   - Bollinger Bands Mean Reversion  
-   - Moving Average Crossover
-   - BBands and RSI strategy 
+- Black-Scholes Pricing: uses a clever formula that has changed the markets, assuming perfectly efficient market.
 
-- 💼 **Portfolio Analysis**  
-   - Portfolio Optimization: optimising parameters within (same tickers) a range of possible weights.
-   - Monte Carlo Value-at-Risk: simulation of scenarios playing out with alpha percentile of expected loss.
-
-- 📈 **Derivatives Pricing**  
-   - Black-Scholes Option Pricing
-   - Binomial Pricing Model  
-
-Click into each folder to explore the projects in detail.
+- Binomial Option Pricing: Captures the market movements as binomial, move up or down, and this approaches the Black-Scholes model with timesteps approaching infinite
