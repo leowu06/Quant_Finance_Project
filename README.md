@@ -1,6 +1,6 @@
 # Quant_Finance_Projects
 
-This repository contains my projects in quantitative finance, specifically for pricing models.
+This folder contains my projects in quantitative finance, specifically for pricing models. These are used to fairly find a price for a option, put or call.
 
 - Black-Scholes Pricing: uses a clever formula that has changed the markets, assuming perfectly efficient market.
 
