@@ -7,15 +7,15 @@ Implements **Black–Scholes**, **SVI fitting**, and a simple **delta-hedging si
 
 ---
 
-## 🚀 Features
+## 🚀 Tabs
 
 ### 1. Greeks Explorer
 - Compute **Black–Scholes option price** (Call/Put).  
 - Visualize Greeks (**Δ, Γ, Vega, Θ, ρ**).  
 - Interactive plots of Greeks vs Spot Price.  
 
-📸 *Screenshot placeholder:*  
-![Greeks Explorer Screenshot](https://github.com/user-attachments/assets/YOUR_IMAGE_ID)
+<img width="1534" height="839" alt="image" src="https://github.com/user-attachments/assets/56b220f7-8555-4eb8-864b-3ea6e9781292" />
+
 
 ---
 
