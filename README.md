@@ -6,8 +6,8 @@ Furthermore, I have made a 3-tab **Streamlit app** that allows the user to inter
 
 ---
 
-## Portfolio Simulation & Analysis: ([Portfolio Analysis & Simulation](https://github.com/leowu06/Quant_Finance_Project/tree/1e122639db5233b4c7780bbd1587d137db01a67f/Portfolio%20Analysis%20%26%20Simulation)).
-For the main file I simulated **21 years of investing** in [QQQ, MSCI, GLD, VOO] 40€ a month with an initial 1600€ vs **saving 40€ in cash a month**
+## ([Portfolio Analysis & Simulation](https://github.com/leowu06/Quant_Finance_Project/tree/1e122639db5233b4c7780bbd1587d137db01a67f/Portfolio%20Analysis%20%26%20Simulation)).
+For the main file "PortfolioSimulationMonteCarlo" I simulated **21 years of investing** in [QQQ, MSCI, GLD, VOO] 40€ a month with an initial 1600€ vs **saving 40€ in cash a month**
 - **Assets:** QQQ, MSCI, GLD, VOO.
 - Simulates with **Monte Carlo**. Included a overlap percentage of these select tickers and a final 'worst-case' scenario of α **Value at Risk (VaR)**, and **Conditional VaR (CVaR)**.
 
@@ -15,21 +15,15 @@ For the main file I simulated **21 years of investing** in [QQQ, MSCI, GLD, VOO]
 
 ## Backtesting Strategies
 
-Testing trading strategies with historical data using the `backtesting.py` framework.
-
-- **`RSIOptimisation`**:
-  Buy when RSI < 30 (oversold), close when RSI > 70 (overbought). Includes parameter optimisation with the Sharpe Ratio.
-
-- **`RSISwingStrat`**:
-  Similar to the 'RSIOptimisation', but flips long ↔ short. Always in the market, betting on both upside and downside swings.
+Tested trading strategies with historical data on 'GOOGL' using the `backtesting.py` framework. For example:
 
 - **`MomentumTrendStrat`**:
-  Combines RSI with trend filters (stacked moving averages: Price > MA10 > MA20 > MA50 > MA100). Enters only when both momentum and trend align. Exits on a breakdown below the 10-day MA.
+  Combines RSI with trend filters (stacked moving averages: Price > MA10 > MA20 > MA50 > MA100). Entered position only when both momentum and trend aligned. Exits when below the 10-day MA.
 
 - **`BBMeanReversion`**:
-  Uses Bollinger Bands. Buys when price bounces above the lower band, sells when it breaks down from the upper band.
+  Uses Bollinger Bands based on mean-reverting behaviour of stock price. It buys when price bounces above the lower band, sells when it comes down from the upper band.
 
-Each strategy includes parameter tuning and visualisation of equity and performance metrics.
+Each strategy includes parameter optimisation and visualisation of performance metrics.
 
 ---
 
