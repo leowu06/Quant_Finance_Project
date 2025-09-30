@@ -46,7 +46,7 @@ Commissions [$]                     1693.5681
 Return [%]                          123.39848
 Buy & Hold Return [%]                313.3036
 
-(*holding GOOGL outperformed this momentum and trend strategy)
+holding GOOGL outperformed this momentum and trend strategy
 ---
 
 ## **BBMeanReversion**
