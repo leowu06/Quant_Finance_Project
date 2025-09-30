@@ -13,7 +13,7 @@ For the main file "PortfolioSimulationMonteCarlo" I simulated **21 years of inve
 
 ---
 
-## Backtesting Strategies
+## [Backtesting Strategies](https://github.com/leowu06/Quant_Finance_Project/tree/ab3f402c3db01ad1648f234dc10e923deeed267c/BacktestStrategies)
 
 Tested trading strategies with historical data on 'GOOGL' using the `backtesting.py` framework. For example:
 
@@ -28,8 +28,7 @@ Each strategy includes parameter optimisation and visualisation of performance m
 ---
 
 ## 💸 Pricing Models
-
-Models for option pricing and risk — e.g., Black-Scholes, Monte Carlo, and binomial trees.
-
-- **`BinomialOptionPricing`**: Implements a multi-period binomial tree model for option valuation.
-- **`BlackScholesPricing`**: Implements the closed-form Black-Scholes-Merton formula for pricing European options.
+In my main project I showcased three tabs on Options Greeks, their behaviour and simulation of how traders base investments on greeks.
+- **`Greeks Explorer`**: Implements the functionality of Black-Scholes formula and includes sliders for user input. There is option to graph the behaviour of select greek vs price of underlying
+- **`IV-Smile`**: Exposes the assumption Black-Scholes has on flat volatility, by extracting data on option chains we visualise that volatility is higher OTM and deep ITM than ATM - reveals traders take on a hedge against market crash.
+- **`Dynamic Delta-Hedging`**: To reduce directional risk of owning options, traders hedge by trading the underlying in the opposite direction. Due to gamma's effect re-hedging or so dynamic hedging is needed which is costly.
