@@ -36,8 +36,11 @@ Compares the risk profiles of different portfolio strategies by calculating thei
 - Compares **Balanced**, **Tech-heavy**, and **Low-risk** portfolios.
 - Uses a similar **Monte Carlo methodology** to simulate outcomes.
 - Plots and visualizes the distribution of the three final portfolio values for comparison.
-
+eg:
 <img width="596" height="455" alt="image" src="https://github.com/user-attachments/assets/1eb20569-65a9-49ae-b978-c52412b15c6a" />
+
+<img width="586" height="455" alt="image" src="https://github.com/user-attachments/assets/1a90d738-1794-4297-b826-c187cd3c5ffd" />
+
 
 
 
