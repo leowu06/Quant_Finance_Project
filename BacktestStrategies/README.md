@@ -31,7 +31,7 @@ This directory contains Python scripts for backtesting various quantitative trad
 Opens a position when two conditions are met:
 
 1.  **Momentum:** Daily RSI is lagging behind weekly RSI which is already signalling strong enough (greater than a defined ‘level’).
-2.  **Trend:** Price > MA10 > MA20 > MA50 > MA100. This is the classic “uptrend alignment,” requiring all moving averages to be stacked upward. The trend is verified.
+2.  **Trend:** Price > MA10 > MA20 > MA50 > MA100. This is the “uptrend alignment,” requiring all moving averages to be stacked upward. The trend is verified.
 
 **Exit Condition:** Exit if price loses short-term support (a 2% drop below the 10-day MA).
 
