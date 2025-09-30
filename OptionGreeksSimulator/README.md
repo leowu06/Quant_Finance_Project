@@ -3,7 +3,7 @@
 An interactive **Streamlit app** to explore option pricing, Greeks, implied volatility smiles, and delta-hedged portfolios.  
 Implements **Black–Scholes**, **SVI fitting**, and a simple **delta-hedging simulator**.
 
-🔗 **Live Demo:** [Open App]([https://your-streamlit-link.streamlit.app](https://quantfinanceproject-4bgfmqei4xmc9wlvb35wwu.streamlit.app/))
+🔗 **Live Demo:** [Open App](https://quantfinanceproject-4bgfmqei4xmc9wlvb35wwu.streamlit.app/)
 
 ---
 
