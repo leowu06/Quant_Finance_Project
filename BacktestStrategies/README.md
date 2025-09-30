@@ -1,6 +1,6 @@
 # Backtesting Strategies
 
-This directory contains Python scripts for backtesting various quantitative trading strategies.
+This directory contains Python files for backtesting various  trading strategies. I included screenshots of outputs.
 
 ---
 
