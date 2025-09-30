@@ -1,24 +1,19 @@
 # Finance and Derivatives
 
-This repository contains a collection of projects in Portfolio Analysis, Strategy Backtesting and Options Greeks Simulation. These were coded through Python, so I included README files in each folder with screenshots of each functionality and visual graphs, so the reader can interpret the purpose.
+This repository contains a collection of projects in **Portfolio Analysis, Strategy Backtesting** and **Options Greeks Simulation**. These were coded through Python, so I included **README** files in each folder with screenshots of each functionality and visual graphs, so the reader can interpret the purpose.
 
 Furthermore, I have made a 3-tab **Streamlit app** that allows the user to interact with the input and simulation parameters (Options): [App (Streamlit UI)](OptionGreeksSimulator/README.md).
 
 ---
 
-## 📊 Portfolio Simulation & Analysis
-
-Monte Carlo simulation of a long-term portfolio with monthly contributions (Dollar-Cost Averaging).
-
+[## Portfolio Simulation & Analysis](OptionGreeksSimulator/README.md).
+For the main file I simulated **21 years of investing** in [QQQ, MSCI, GLD, VOO] 40€ a month with an initial 1600€ vs **saving 40€ in cash a month**
 - **Assets:** QQQ, MSCI, GLD, VOO.
-- **Strategy:** Simulates with Monte Carlo: investing **40 €/month** + an **initial 1600 €** until age 40.
-- **Features:** Includes diversification overlap analysis, portfolio volatility, **Value at Risk (VaR)**, and **Conditional VaR (CVaR)**.
-- **Output:** Models thousands of random portfolio paths and compares them to simply saving the money.
-- **Goal:** Shows how small, regular investments can grow (and what the risks look like) under realistic, fat-tailed market randomness.
+- Simulates with **Monte Carlo**. Included a overlap percentage of these select tickers and a final 'worst-case' scenario of α **Value at Risk (VaR)**, and **Conditional VaR (CVaR)**.
 
 ---
 
-## 🤖 Backtesting Strategies
+## Backtesting Strategies
 
 Testing trading strategies with historical data using the `backtesting.py` framework.
 
