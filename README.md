@@ -1,8 +1,8 @@
 # Finance and Derivatives
 
-This repository contains a collection of projects in Portfolio Analysis, Strategy Backtesting and Options Greeks Simulation. These were coded through Python so I included README files in each folder with screenshots of each functionality and visual graphs, so the reader can interpret the purpose.
+This repository contains a collection of projects in Portfolio Analysis, Strategy Backtesting and Options Greeks Simulation. These were coded through Python, so I included README files in each folder with screenshots of each functionality and visual graphs, so the reader can interpret the purpose.
 
-Furthermore, I have made a 3-tab **Streamlit app** that allows the user to interact with the input and simulation parameters: [App (Streamlit UI)](OptionGreeksSimulator/README.md).
+Furthermore, I have made a 3-tab **Streamlit app** that allows the user to interact with the input and simulation parameters (Options): [App (Streamlit UI)](OptionGreeksSimulator/README.md).
 
 ---
 
