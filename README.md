@@ -27,7 +27,7 @@ Each strategy includes parameter optimisation and visualisation of performance m
 
 ---
 
-## 💸 Pricing Models
+## ([Option Greeks Simulator]) (https://github.com/leowu06/Quant_Finance_Project/tree/7a385ce9a94b2fefbab622d81db491be66875a93/OptionGreeksSimulator)
 In my main project I showcased three tabs on Options Greeks, their behaviour and simulation of how traders base investments on greeks.
 - **`Greeks Explorer`**: Implements the functionality of Black-Scholes formula and includes sliders for user input. There is option to graph the behaviour of select greek vs price of underlying
 - **`IV-Smile`**: Exposes the assumption Black-Scholes has on flat volatility, by extracting data on option chains we visualise that volatility is higher OTM and deep ITM than ATM - reveals traders take on a hedge against market crash.
