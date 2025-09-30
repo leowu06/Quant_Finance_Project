@@ -137,3 +137,6 @@ with tab3:
 
     except Exception as e:
         st.error(f"Simulation failed: {e}")
+
+st.markdown("---")
+st.markdown("*Built by **Leo (Dongjie) Wu***")
