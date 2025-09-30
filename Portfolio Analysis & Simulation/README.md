@@ -28,7 +28,7 @@ The simulation tracks:
 
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/109b4546-8fdb-4f55-9570-f61276decbe0" />
 
-**Note:** This project was created after understanding the core concepts of VaR, CVaR, and Monte Carlo simulation, and it serves as a  representation of the skills applied in this folder.
+**Note:** The worst performing outcome (1-alpha-quantile) still outperformed just saving - where alpha is confidence.
 
 ---
 
