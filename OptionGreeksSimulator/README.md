@@ -59,7 +59,7 @@ N_{\text{stocks}} = - \Delta_{\text{option}} \cdot N_{\text{options}}
 $$
 $$
 Since 
-\frac{d\Delta}{dS} = \Gamma > 0 \ \ \Rightarrow\;\; \text{hedge must be rebalanced.}
+ \frac{d\Delta}{dS} = \Gamma > 0 \ \ \Rightarrow\ \text{hedge must be rebalanced.}
 $$
 
 - We simulate hedging with user-chosen rebalancing frequency → study **hedging cost vs accuracy trade-off**.  
