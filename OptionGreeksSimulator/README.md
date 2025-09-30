@@ -27,7 +27,7 @@ Black-Scholes formula assumes that the market has flat volatility, we showcase a
 - Fit an **SVI curve** with least for smooth smiles
 - Visualize *log-moneyness* vs implied vol.
 
-**SVI Smile fit***
+**SVI Smile fit**
 
 We fit the implied volatility smile using the **SVI (Stochastic Volatility Inspired)** parameterisation:
 
