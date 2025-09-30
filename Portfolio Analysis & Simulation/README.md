@@ -26,7 +26,9 @@ The simulation tracks:
 - **CVaR:** The average value of the worst 10% of scenarios (Conditional Value at Risk).
 - **Overlap %:** A quantitative measure of the portfolio's diversification.
 
-**Note:** This project was created after understanding the core concepts of VaR, CVaR, and Monte Carlo simulation, and it serves as a comprehensive representation of the skills applied in this folder.
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/109b4546-8fdb-4f55-9570-f61276decbe0" />
+
+**Note:** This project was created after understanding the core concepts of VaR, CVaR, and Monte Carlo simulation, and it serves as a  representation of the skills applied in this folder.
 
 ---
 
@@ -48,7 +50,7 @@ eg:
 
 ## **StockOptimisation**
 
-Takes a user-defined set of stock tickers and optimizes for the best risk-adjusted returns.
+Takes a user-defined set of stock tickers and optimizes for the best risk-adjusted returns (Sharpe ratio).
 - The core function is to algorithmically **change the weighting** of the investments in the portfolio.
 - The optimization process seeks the allocation that maximizes returns for a given level of risk (or minimizes risk for a given return target).
 
