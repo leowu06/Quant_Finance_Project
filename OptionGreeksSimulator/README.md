@@ -20,23 +20,24 @@ Implements **Black–Scholes**, **SVI fitting**, and a simple **delta-hedging si
 ---
 
 ### 2. Implied Volatility Smile
+Black-Scholes formula assumes that the market has flat volatility, we showcase a more realistic behaviour where traders buy 'insurance' for a 'black swan' crash. They are willing to pay for OTM options leading to higher volatility, hence fat tails
 - Extracted option chain data via **yfinance**. 
 - Compute market implied vols by implementing Black-Scholes.
 - Concatenated OTM calls left of Spot price and OTM puts on its right - leads to a more noticeable smile since deep ITM can be illiquid or have lower trading volume.
 - Fit an **SVI curve** with least for smooth smiles
 - Visualize *log-moneyness* vs implied vol.
 
-### **SVI Smile Fit**
+## **SVI Smile Fit**
 
-We fit the implied volatility smile using the **SVI (Stochastic Volatility Inspired)** parameterization:
+We fit the implied volatility smile using the **SVI (Stochastic Volatility Inspired)** parameterisation:
 
 $$
 w(k) = a + b \Big( \rho (k - m) + \sqrt{(k - m)^2 + \sigma^2} \Big)
 $$
 
 where $w(k) = \sigma^2 T$ is the **total variance** at log-moneyness $k = \ln(K/F)$.  
-Parameters $(a,b,\rho,m,\sigma)$ are estimated via **nonlinear least squares** to best match market option quotes.  
-This produces a **smooth, arbitrage-free implied volatility curve** from sparse market data.
+Parameters $(a,b,\rho,m,\sigma)$ are estimated through **nonlinear least squares** to match the previously calculated implied vols.  
+This produces a **smooth implied volatility curve**.
 
 
 
@@ -44,9 +45,19 @@ This produces a **smooth, arbitrage-free implied volatility curve** from sparse 
 
 ---
 
-### 3. Hedging / Delta-neutral
-- Simulate **long option + short Δ shares of stock**.  
-- Choose rebalancing frequency → study **hedging cost vs accuracy trade-off**.  
+### 3. Dynamic Hedging / Delta-neutral
+Trading firms/traders stay delta-neutral to reduce exposure to directional risk (like owning the stock). If they own a call option with Δ, they short Δ stocks in order to have a conjoined portfolio delta = 0.
+
+\[
+\Delta_{\text{portfolio}} = \Delta_{\text{option}} \cdot N_{\text{options}} + \Delta_{\text{stock}} \cdot N_{\text{stocks}} = 0
+\]
+
+Since \(\Delta_{\text{stock}} = 1\), the hedge requires:
+
+\[
+N_{\text{stocks}} = - \Delta_{\text{option}} \cdot N_{\text{options}}
+\]
+- We simulate hedging with user-chosen rebalancing frequency → study **hedging cost vs accuracy trade-off**.  
 - Charts included:  
   - **Option vs Hedged Portfolio Value**  
   - **Option Δ vs Portfolio Δ**  
