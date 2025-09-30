@@ -26,21 +26,17 @@ Implements **Black–Scholes**, **SVI fitting**, and a simple **delta-hedging si
 - Fit an **SVI curve** with least for smooth smiles
 - Visualize *log-moneyness* vs implied vol.
 
-  Here’s a concise, copy-paste ready README block you can use to show the math clearly:
+### **SVI Smile Fit**
 
-⸻
+We fit the implied volatility smile using the **SVI (Stochastic Volatility Inspired)** parameterization:
 
-SVI Smile Fit
-
-We fit the implied volatility smile using the SVI (Stochastic Volatility Inspired) parameterization:
-
+$$
 w(k) = a + b \Big( \rho (k - m) + \sqrt{(k - m)^2 + \sigma^2} \Big)
+$$
 
-where w(k) = \sigma^2 T is the total variance at log-moneyness k = \ln(K/F).
-Parameters (a,b,\rho,m,\sigma) are estimated via nonlinear least squares to best match market option quotes.
-This produces a smooth, arbitrage-free implied volatility curve from sparse market data.
-
-⸻
+where $w(k) = \sigma^2 T$ is the **total variance** at log-moneyness $k = \ln(K/F)$.  
+Parameters $(a,b,\rho,m,\sigma)$ are estimated via **nonlinear least squares** to best match market option quotes.  
+This produces a **smooth, arbitrage-free implied volatility curve** from sparse market data.
 
 
 
