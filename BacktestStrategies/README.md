@@ -38,12 +38,12 @@ Opens a position when two conditions are met:
 <img width="1652" height="775" alt="image" src="https://github.com/user-attachments/assets/4c020da3-7af0-4524-b3dd-9bae95676de5" />
 
 
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    26.16387
-Equity Final [$]                   22339.8475
-Equity Peak [$]                   22937.61394
-Commissions [$]                     1693.5681
-**Return [%]                          123.39848
+Duration                   3116 days 00:00:00, 
+Exposure Time [%]                    26.16387, 
+Equity Final [$]                   22339.8475, 
+Equity Peak [$]                   22937.61394, 
+Commissions [$]                     1693.5681, 
+**Return [%]                          123.39848, 
 Buy & Hold Return [%]                313.3036**
 
 Holding GOOGL outperformed this trading strategy
