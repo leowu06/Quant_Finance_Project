@@ -12,7 +12,7 @@ Implements **Black–Scholes**, **SVI fitting**, and a simple **delta-hedging si
 ### 1. Greeks Explorer
 - Compute **Black–Scholes option price** (Call/Put).  
 - Visualize Greeks (**Δ, Γ, Vega, Θ, ρ**) through interactive plots of Greek vs Spot Price.
-  eg: (Put) Delta ATM ∼ 0.5, Delta ITM ∼ 1, Gamma ATM (highest)
+  eg: (Put) Delta ATM ∼ 0.5, Delta ITM ∼ 1, Gamma ATM (highest).
 
 <img width="1554" height="856" alt="image" src="https://github.com/user-attachments/assets/3c947b50-afad-493a-960f-80d5dd12a79b" />
 
@@ -20,7 +20,7 @@ Implements **Black–Scholes**, **SVI fitting**, and a simple **delta-hedging si
 ---
 
 ### 2. Implied Volatility Smile
-Black-Scholes formula assumes that the market has flat volatility, we showcase a more realistic behaviour where traders buy 'insurance' for a 'black swan' crash. They are willing to pay for OTM options leading to higher volatility, hence fat tails
+Black-Scholes formula assumes that the market has flat volatility, we showcase a more realistic behaviour where traders buy 'insurance' for a 'black swan' crash. They are willing to pay for OTM options leading to higher volatility, hence fat tails.
 - Extracted option chain data via **yfinance**. 
 - Compute market implied vols by implementing Black-Scholes.
 - Concatenated OTM calls left of Spot price and OTM puts on its right - leads to a more noticeable smile since deep ITM can be illiquid or have lower trading volume.
@@ -61,7 +61,7 @@ $$
 text{Since} \frac{d\Delta}{dS} = \Gamma > 0 \ \ \Rightarrow\ \text{hedge must be rebalanced.}
 $$
 
-- We simulate hedging with user-chosen rebalancing frequency → study **hedging cost vs accuracy trade-off**.  
+- We simulate hedging with user-chosen rebalancing frequency. 
 - Charts included:  
   - **Option vs Hedged Portfolio Value**  
   - **Option Δ vs Portfolio Δ**  
