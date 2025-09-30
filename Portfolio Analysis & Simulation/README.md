@@ -37,6 +37,9 @@ Compares the risk profiles of different portfolio strategies by calculating thei
 - Uses a similar **Monte Carlo methodology** to simulate outcomes.
 - Plots and visualizes the distribution of the three final portfolio values for comparison.
 
+  <img width="593" height="455" alt="image" src="https://github.com/user-attachments/assets/27b349b8-12eb-48c7-829f-795869ec4d23" />
+
+
 ---
 
 ## **StockOptimisation**
