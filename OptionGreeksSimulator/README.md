@@ -58,8 +58,7 @@ $$
 N_{\text{stocks}} = - \Delta_{\text{option}} \cdot N_{\text{options}}
 $$
 $$
-Since 
- \frac{d\Delta}{dS} = \Gamma > 0 \ \ \Rightarrow\ \text{hedge must be rebalanced.}
+text{Since} \frac{d\Delta}{dS} = \Gamma > 0 \ \ \Rightarrow\ \text{hedge must be rebalanced.}
 $$
 
 - We simulate hedging with user-chosen rebalancing frequency → study **hedging cost vs accuracy trade-off**.  
@@ -70,14 +69,9 @@ $$
 
 <img width="1561" height="774" alt="image" src="https://github.com/user-attachments/assets/b5670720-b9e1-4dbd-a2e8-6ec874b5d6a9" />
 
-
-
----
-
-## 📈 Hedging Trade-off (Intuition)
-
+Dynamic Hedging comes at a cost:
 - Rebalancing **more often** → keeps portfolio Δ ≈ 0 (**better hedge accuracy**)  
 - Rebalancing **less often** → lowers transaction costs but Δ drifts (**less accuracy**)  
-- Trade-off = *accuracy vs cost*
+This is displayed in the app, user can modify rebalancing frequency.
 
 
