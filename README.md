@@ -6,7 +6,7 @@ Furthermore, I have made a 3-tab **Streamlit app** that allows the user to inter
 
 ---
 
-[## Portfolio Simulation & Analysis](OptionGreeksSimulator/README.md).
+## Portfolio Simulation & Analysis: [Go to](OptionGreeksSimulator/README.md).
 For the main file I simulated **21 years of investing** in [QQQ, MSCI, GLD, VOO] 40€ a month with an initial 1600€ vs **saving 40€ in cash a month**
 - **Assets:** QQQ, MSCI, GLD, VOO.
 - Simulates with **Monte Carlo**. Included a overlap percentage of these select tickers and a final 'worst-case' scenario of α **Value at Risk (VaR)**, and **Conditional VaR (CVaR)**.
