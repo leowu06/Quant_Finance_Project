@@ -14,6 +14,10 @@ This directory contains Python scripts for backtesting various quantitative trad
 - The bounds (30/70) were optimised based on historic data with the **Sharpe Ratio** as the objective function.
 - **Minimum of 10 trades made:** Only consider strategies with at least 10 trades. Among those, score them based on money made per unit of time spent in the market.
 
+  <img width="404" height="434" alt="image" src="https://github.com/user-attachments/assets/e76331eb-7740-4591-9a10-143c521128f7" />
+
+Heatmap of RSIupper, RSIlower as a function of 'Sharpe ratio'.
+
 ---
 
 ## **RSISwingStrat**
