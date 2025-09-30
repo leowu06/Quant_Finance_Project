@@ -51,8 +51,8 @@ eg:
 ## **StockOptimisation**
 
 Takes a user-defined set of stock tickers and optimizes for the best risk-adjusted returns (Sharpe ratio).
-- The core function is to algorithmically **change the weighting** of the investments in the portfolio.
-- The optimization process seeks the allocation that maximizes returns for a given level of risk (or minimizes risk for a given return target).
+- The function is to algorithmically **change the weighting** of the investments in the portfolio.
+- The optimization process seeks the allocation that maximizes returns for a given level of risk.
 
   <img width="545" height="239" alt="image" src="https://github.com/user-attachments/assets/6f3d51db-0537-49c4-b8c4-c01fb906f8f6" />
   <img width="536" height="239" alt="image" src="https://github.com/user-attachments/assets/27029809-d495-4435-bc7d-a90c51ff304a" />
