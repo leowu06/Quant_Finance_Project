@@ -43,8 +43,8 @@ Exposure Time [%]                    26.16387
 Equity Final [$]                   22339.8475
 Equity Peak [$]                   22937.61394
 Commissions [$]                     1693.5681
-Return [%]                          123.39848
-Buy & Hold Return [%]                313.3036 
+**Return [%]                          123.39848
+Buy & Hold Return [%]                313.3036**
 
 Holding GOOGL outperformed this trading strategy
 ---
