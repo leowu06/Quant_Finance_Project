@@ -1,6 +1,8 @@
-# 📂 Finance & Trading Projects
+# Finance and Derivatives
 
-This repository collects projects I have been working on around finance, trading strategies, and portfolio analysis in Python. Each folder consists of a different topic—from backtesting technical trading strategies and simulating long-term investing to option pricing models.
+This repository contains a collection of projects in Portfolio Analysis, Strategy Backtesting and Options Greeks Simulation. These were coded through Python so I included README files in each folder with screenshots of each functionality and visual graphs, so the reader can interpret the purpose.
+
+Furthermore, I have made a 3-tab **Streamlit app** that allows the user to interact with the input and simulation parameters: [App (Streamlit UI)](app.py).
 
 ---
 
