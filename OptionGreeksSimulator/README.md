@@ -48,15 +48,16 @@ This produces a **smooth implied volatility curve**.
 ### 3. Dynamic Hedging / Delta-neutral
 Trading firms/traders stay delta-neutral to reduce exposure to directional risk (like owning the stock). If they own a call option with Δ, they short Δ stocks in order to have a conjoined portfolio delta = 0.
 
-\[
+$$
 \Delta_{\text{portfolio}} = \Delta_{\text{option}} \cdot N_{\text{options}} + \Delta_{\text{stock}} \cdot N_{\text{stocks}} = 0
-\]
+$$
 
-Since \(\Delta_{\text{stock}} = 1\), the hedge requires:
+Since $\Delta_{\text{stock}} = 1$, the hedge requires:
 
-\[
+$$
 N_{\text{stocks}} = - \Delta_{\text{option}} \cdot N_{\text{options}}
-\]
+$$
+
 - We simulate hedging with user-chosen rebalancing frequency → study **hedging cost vs accuracy trade-off**.  
 - Charts included:  
   - **Option vs Hedged Portfolio Value**  
