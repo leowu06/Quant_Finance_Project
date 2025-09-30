@@ -1,4 +1,4 @@
-# 📊 Options Greeks Simulator
+# Options Greeks Simulator
 
 An interactive **Streamlit app** to explore option pricing, Greeks, implied volatility smiles, and delta-hedged portfolios.  
 Implements **Black–Scholes**, **SVI fitting**, and a simple **delta-hedging simulator**.
