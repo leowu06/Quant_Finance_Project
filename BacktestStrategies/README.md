@@ -3,32 +3,8 @@
 ---
 
 
-This directory contains Python files for backtesting various  trading strategies. I included screenshots of outputs.
 
-
-## **RSIOscillator**
-
-**Strategy Logic:**
-- **Buy:** When the RSI index shows the market is oversold (<= 30). Buy 50% of the position with our current cash.
-- **Sell/Close:** Close positions when RSI is above 70.
-
-**Parameter Optimisation:**
-- The bounds (30/70) were optimised based on historic data with the **Sharpe Ratio** as the objective function.
-- **Minimum of 10 trades made:** Only consider strategies with at least 10 trades. Among those, score them based on money made per unit of time spent in the market.
-
-  <img width="401" height="431" alt="image" src="https://github.com/user-attachments/assets/1538de80-ffc6-4ec6-b375-42347c925675" />
-
-
-Heatmap of RSIupper, RSIlower as a function of 'Sharpe ratio'.
-
----
-
-## **RSISwingStrat**
-
-**Strategy Logic:**
-- Similar to the regular RSI strategy, but when closing a long position, also **open a short** position, predicting the market is going down. The same logic is applied to the upside for short covering.
-
----
+This directory contains Python files for backtesting various  trading strategies. I included screenshots of outputs and conclusion.
 
 ## **MomentumTrendStrat**
 
@@ -53,7 +29,31 @@ Commissions [$]                     1693.5681,
 **Return [%]                          123.39848, 
 Buy & Hold Return [%]                313.3036**
 
-Holding GOOGL outperformed this trading strategy
+The strategy obtained significantly lower returns than buy-and-hold (123% vs 313%), but did so while being exposed to the market only ~25% of the time. This illustrates the trade-off: overall reduced exposure leads to lower risk exposure, but also limits total return.
+---
+
+## **RSIOscillator**
+
+**Strategy Logic:**
+- **Buy:** When the RSI index shows the market is oversold (<= 30). Buy 50% of the position with our current cash.
+- **Sell/Close:** Close positions when RSI is above 70.
+
+**Parameter Optimisation:**
+- The bounds (30/70) were optimised based on historic data with the **Sharpe Ratio** as the objective function.
+- **Minimum of 10 trades made:** Only consider strategies with at least 10 trades. Among those, score them based on money made per unit of time spent in the market.
+
+  <img width="401" height="431" alt="image" src="https://github.com/user-attachments/assets/1538de80-ffc6-4ec6-b375-42347c925675" />
+
+
+Heatmap of RSIupper, RSIlower as a function of 'Sharpe ratio'.
+
+---
+
+## **RSISwingStrat**
+
+**Strategy Logic:**
+- Similar to the regular RSI strategy, but when closing a long position, also **open a short** position, predicting the market is going down. The same logic is applied to the upside for short covering.
+
 ---
 
 ## **BBMeanReversion**
