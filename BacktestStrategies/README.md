@@ -6,7 +6,7 @@
 
 This directory contains Python files for backtesting various  trading strategies. I included screenshots of outputs and conclusion.
 
-## **MomentumTrendStrat**
+## **Momentum-Trend Strategy**
 
 **Self-defined indicator:** Moving average, rolling mean on a panda table.
 
@@ -49,14 +49,14 @@ Heatmap of RSIupper, RSIlower as a function of 'Sharpe ratio'.
 
 ---
 
-## **RSISwingStrat**
+## **RSI-Swing Strategy**
 
 **Strategy Logic:**
 - Similar to the regular RSI strategy, but when closing a long position, also **open a short** position, predicting the market is going down. The same logic is applied to the upside for short covering.
 
 ---
 
-## **BBMeanReversion**
+## **Bollinger-Band Mean Reversion**
 
 **Strategy Logic:**
 Uses Bollinger Bands to capture mean reversion.
