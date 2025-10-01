@@ -43,7 +43,7 @@ This produces a **smooth implied volatility curve**.
 
 <img width="1089" height="825" alt="image" src="https://github.com/user-attachments/assets/efc34d70-f334-4fd9-9734-e964e8ffd6be" />
 
-**Result & Conclusion**: With just Black-Scholes we simply hold a flat volatility assumption across log moneyness, whereas the market reflects a traders' behaviour, traders buy 'insurance' for a 'black swan' crash. They are willing to pay for OTM options leading to higher volatility, hence fat tails.
+**Result & Conclusion**: With just Black-Scholes we simply hold a flat volatility assumption across log moneyness, whereas the market reflects traders' behaviour, traders buy 'insurance' for a 'black swan' crash. They are willing to pay for OTM options leading to higher volatility, hence fat tails.
 
 ---
 
