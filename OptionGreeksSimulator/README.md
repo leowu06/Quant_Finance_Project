@@ -16,11 +16,11 @@ The app demonstrates implementation of **Black–Scholes**, **SVI fitting**, and
 
 <img width="1554" height="856" alt="image" src="https://github.com/user-attachments/assets/3c947b50-afad-493a-960f-80d5dd12a79b" />
 
+Showcases behaviour of greeks in movement with the underlyying asset's price.
 
 ---
 
 ### 2. Implied Volatility Smile
-Black-Scholes formula assumes that the market has flat volatility, we showcase a more realistic behaviour where traders buy 'insurance' for a 'black swan' crash. They are willing to pay for OTM options leading to higher volatility, hence fat tails.
 - Extracted option chain data via **yfinance**. 
 - Compute market implied vols by implementing Black-Scholes.
 - Concatenated OTM calls left of Spot price and OTM puts on its right - leads to a more noticeable smile since deep ITM can be illiquid or have lower trading volume.
@@ -42,6 +42,8 @@ This produces a **smooth implied volatility curve**.
 
 
 <img width="1089" height="825" alt="image" src="https://github.com/user-attachments/assets/efc34d70-f334-4fd9-9734-e964e8ffd6be" />
+
+**Result & Conclusion**: With just Black-Scholes we simply hold a flat volatility assumption across log moneyness, whereas the market reflects a traders' behaviour, traders buy 'insurance' for a 'black swan' crash. They are willing to pay for OTM options leading to higher volatility, hence fat tails.
 
 ---
 
