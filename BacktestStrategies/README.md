@@ -28,7 +28,7 @@ Commissions [$]                     1693.5681,
 **Return [%]                          123.39848, 
 Buy & Hold Return [%]                313.3036**
 
-The strategy obtained significantly lower returns than buy-and-hold (123% vs 313%), but did so while being exposed to the market only ~25% of the time. This illustrates the trade-off: overall reduced exposure leads to lower risk exposure, but also limits total return.
+Result & Conclusion: The strategy obtained significantly lower returns than buy-and-hold (123% vs 313%), but did so while being exposed to the market only ~25% of the time. This illustrates the trade-off: overall reduced exposure leads to lower risk exposure, but also limits total return.
 
 ---
 
