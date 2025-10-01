@@ -12,11 +12,10 @@ This directory contains Python files for backtesting various  trading strategies
 
 **Strategy Logic:**
 Opens a position when two conditions are met:
-
-1.  **Momentum:** Daily RSI is lagging behind weekly RSI which is already signalling strong enough (greater than a defined ‘level’).
+1.  **Momentum:** Daily RSI is lagging behind weekly RSI which is already signalling strong enough.
 2.  **Trend:** Price > MA10 > MA20 > MA50 > MA100. This is the “uptrend alignment,” requiring all moving averages to be stacked upward. The trend is verified.
 
-**Exit Condition:** Exit if price loses short-term support (a 2% drop below the 10-day MA).
+**Exit Condition:** Exit if there is a 2% drop below the 10-day MA.
 
 <img width="1652" height="775" alt="image" src="https://github.com/user-attachments/assets/4c020da3-7af0-4524-b3dd-9bae95676de5" />
 
@@ -40,7 +39,7 @@ The strategy obtained significantly lower returns than buy-and-hold (123% vs 313
 
 **Parameter Optimisation:**
 - The bounds (30/70) were optimised based on historic data with the **Sharpe Ratio** as the objective function.
-- **Minimum of 10 trades made:** Only consider strategies with at least 10 trades. Among those, score them based on money made per unit of time spent in the market.
+- Among the trades, score them based on money made per unit of time spent in the market.
 
   <img width="401" height="431" alt="image" src="https://github.com/user-attachments/assets/1538de80-ffc6-4ec6-b375-42347c925675" />
 
