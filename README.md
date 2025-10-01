@@ -2,7 +2,7 @@
 
 This repository contains a collection of projects in **Portfolio Analysis, Strategy Backtesting** and **Options Greeks Simulation**. These were coded through Python, so I included **README** files in each folder with screenshots of each functionality and visual graphs, so the reader can interpret the purpose.
 
-Furthermore, I have made a 3-tab **Streamlit app** that allows the user to interact with the input and simulation parameters (Options): [App (Streamlit UI)](https://quantfinanceproject-4bgfmqei4xmc9wlvb35wwu.streamlit.app/](https://quantfinanceproject-4bgfmqei4xmc9wlvb35wwu.streamlit.app/)).
+Furthermore, I have made a 3-tab **Streamlit app** that allows the user to interact with the input and simulation parameters (Options): [App (Streamlit UI)](https://quantfinanceproject-4bgfmqei4xmc9wlvb35wwu.streamlit.app).
 
 ---
 
